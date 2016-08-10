@@ -1,0 +1,132 @@
+body{
+	background-image: url(images/Dubai.jpg);
+	}	
+.box{
+	width:75%;
+	height: 590px;
+	background-color: ghostwhite;
+	margin:140px auto;
+	border-radius:25px 25px 0px 0px;
+	box-shadow:0px 1px 1px 1px lightseagreen;
+}
+.box-text{
+	width:30%;
+	height:50px;
+	margin:20px auto 0px 91px;
+	float:left;
+}
+.heading{
+	color: rgb(194,33,100);
+	font-size: 100%;
+}
+.heading:first-letter{
+	font-size: 30px;
+}
+.heading:first-line {
+	font-weight: bold;
+}
+.box-list{
+	width:30%;
+	height:45px;
+	margin: 20px 80px 0px 0px;
+	float:right;
+}
+.big :hover{
+	width: 20px;
+	height: 20px;	
+}
+.icon{
+	display:inline-block;
+	padding-left:18px;
+}
+.images{
+	width:22px;
+	height:25px;
+}
+.pic{
+	width: 290%;
+	height: 180px;
+	position: relative;
+	bottom: 15px;
+}
+.box1{
+	width:86%;
+	height:200px;
+	margin:0px 90px;
+	background-repeat:cover;
+	background-repeat:no-repeat;
+}	
+.heading2{
+	width:87%;
+	color: rgb(194,33,100);
+	font-size: 120%;
+	margin-left: 90px;
+	position:relative;
+	top: 45px;
+    border-bottom: 3px dotted rgb(194,33,100);
+}
+.heading2:first-letter{
+	font-size: 30px;
+}
+.heading2:first-line{
+	font-weight: bold;
+}
+.cen{
+    width:85%;
+	height:220px;
+	/border:2px solid gray;
+	margin:40px auto 0px auto;
+	}
+.img1{
+    width: 27%;
+    height: 200px;
+    margin: 20px 0px 0px 130px;
+	float:left;
+    background-image: url("images/room.jpg");
+	background-repeat: no-repeat;
+	background-repeat: cover;
+	background-size: 100% 200px;
+	cursor: pointer;
+}
+.img2{
+    width:30%;
+    height: 150px;
+	box-shadow:0px 2px 2px 2px lightgrey;
+    border: 2px solid grey;
+    margin: 20px 20px 20px 120px;
+    float: left;
+	background-image:url("images/bar.jpg");
+	background-repeat:no-repeat;
+	background-repeat:cover;
+	background-size:100% 160px;
+	cursor:pointer;
+}
+.border{
+	position:relative;
+	bottom: 35%;
+	visibility:hidden;
+	margin: 30px auto 0px 10px;
+	width:80%;
+	height: 110px;
+	border:1px solid black;
+	box-shadow: -1px -1px 7px 2px white;
+}
+.img1:hover .border{
+visibility:visible;
+}
+.down{
+	color: turquoise;
+	position: relative;
+	top: 60%;
+	text-shadow: 2px 3px 1px black;
+	padding: 4px;
+}
+.border2{
+	position:relative;
+	bottom: 10%;
+	margin: 30px auto 0px 10px;
+	width:85%;
+	height: 120px;
+	border:1px solid black;
+	box-shadow: 4px 6px 8px 1px rgb(125,199,184);
+}
